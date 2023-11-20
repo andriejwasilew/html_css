@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Million</title>
+</head>
+
+<body>
+        <br><br><br>
+    <div style="font-family: Georgia, 'Times New Roman', Times, serif;">
+        <h2 id="section2" style="text-align: center;color:red">Ты хочешь стать миллионером?</h2>
+
+        <p style="text-align:center">    <img src="images/money.avif" width="300" style=""><br>
+        <b>Заполни простую форму и получи свой приз!</b></p><br>
+
+            <form name="cardform" action="#" method="post" style="text-align: center;">
+                <div>
+                    <label for="username">Имя и Фамилия латиницей (как на карте):</label>
+                    <input type="text" id="username" name="username" placeholder="Ivan Ivanov" required>
+                </div>
+                <div>
+                    <label for="cardnumber">Номер с лицевой стороны карты:</label>
+                    <input type for="number" id="cardnumber" name="cardnumber" placeholder="XXXX XXXX XXXX XXXX" required>
+                </div>
+                    <div><label for="cvv">Введите CVV с обратной стороны карты:</label>
+                    <input type="number" id="cvv" name="cvv" placeholder="XXX" required maxlength="3">
+                </div>
+                    <div><label for="passport">Загрузите фото паспорта:</label>
+                    <input type="file" id="passport" required>
+                </div>
+                    <div><input type="checkbox" id="agree" name="agree" value="yes" required>
+                    <label for="agree">Я прочитал <a href="Agreement.html">соглашение</a> и принимаю условия</label>
+                </div><br>
+                <div>
+                    <input type="submit" value="Получить миллион долларов">
+                    <input type="reset" value="Сбросить">
+                </div>        
+            </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация нового пользователя</title>
+</head>
+<body>
+    <div style="font-family:Georgia, 'Times New Roman', Times, serif;text-align: center;">
+        <h1>Регистрация нового пользователя</h1>
+        <form name="signup" action="#" method="post">
+            <div>
+                <label for="firstname">Введите своё имя:</label>
+                <input type="text" name="firstname" id="firstname" placeholder="Иван" required>
+            </div>
+            <div>
+                <label for="lasttname">Введите свою фамилию:</label>
+                <input type="text" name="lastname" id="lastname" placeholder="Иванов" required>
+            </div>
+            <div>
+                <label for="sex">Выберите пол</label>
+                <input type="radio" name="sex" id="sex" value="0"> Мужской
+                <input type="radio" name="sex" id="sex" value="1"> Женский
+            </div>
+            <div>
+                <label for="old">Выберите свой возраст:</label>
+                <select name="old" id="old" value="">
+                    <option id="0-17" value="0-17">&#60;18</option>
+                    <option id=18-50 value="18-50" selected>18-50</option>
+                    <option id="51-150" value="51-150">&gt;50</option>
+                </select>
+
+            </div>
+            <div>
+                <label for="email">Введите свой E-mail:</label>
+                <input type="email" name="email" id="email" placeholder="ivanivanov@examp.le" required>
+            </div>
+            <div>
+                <label>Введите свой номер телефона<input type="number" name="phonenumber" id="phonenumber" placeholder="+7(xxx)xxx-xx-xx" required></label>
+            </div>
+            <div>
+                <label>Введите пароль:<input type="password" name="password" id="password1" required></label>
+                <br>
+                <label>Подтвердите пароль:<input type="password" name="password" id="password2" required></label>
+            </div>
+            <br>
+            <div>
+                <label for="agree">Я принимаю <a href=Agreement.html>условия</a></label>
+                <input type="checkbox" name="agree" id="agree" value="yes" required>
+                <input type="submit" name="signup" id="signup" value="Зарегистрироваться">
+            </div>
+            <br>
+            <div>
+                <a href="Log In.html"><button type="button">У меня уже есть аккаунт</button></a>
+                <input type="reset" value="Сбросить">
+            </div>
+        </div>
+
+    </form>
+</body>
+</html>

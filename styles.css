@@ -1,0 +1,104 @@
+@keyframes changeColor {
+    0% {
+        color: black;
+    }
+    33% {
+        color: rgb(18, 18, 73);
+    }
+    66% {
+        color:  rgb(18, 18, 73);
+    }
+    100% {
+        color: black;
+    }
+}
+
+body {
+    text-align: center;
+    background-image: url(images/background.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-color: linear-gradient(to right, rgb(229, 229, 250), rgb(22, 24, 65));
+    color:rgb(139, 139, 163);
+    padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:1400px;
+    min-height:900px;
+    
+    
+}
+
+/* Javacssjs */
+h1 {
+    text-shadow: 0px 0px 5px rgba(51, 102, 204, 0.5), 0px 0px 10px rgba(51, 102, 204, 0.5), 0px 0px 10px rgba(51, 102, 204, 0.5),
+    0px 0px 20px rgba(51, 102, 204, 0.5);
+    animation: changeColor 5s linear infinite;
+    }
+
+
+/* Andrei */
+h2 {
+    text-shadow: 0px 0px 5px rgba(51, 102, 204, 0.5), 0px 0px 10px rgba(51, 102, 204, 0.5), 0px 0px 10px rgba(51, 102, 204, 0.5),
+    0px 0px 20px rgba(51, 102, 204, 0.5);
+  animation: changeColor 5s linear infinite;
+    }
+
+/* Avatar */
+#circle-image {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 20px rgba(42, 87, 176, 0.5);
+    margin:20px;
+}
+    
+  #circle-image:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 100px rgba(42, 87, 176, 0.5);
+  }
+
+  #circle-image:active {
+    box-shadow: 0 0 300px 20px rgba(42, 87, 176, 0.5);
+  }
+  
+  /* Privet */ 
+ #privet {
+    text-shadow: 0px 0px 5px rgba(51, 102, 204, 0.5), 0px 0px 10px rgba(51, 102, 204, 0.5), 0px 0px 10px rgba(51, 102, 204, 0.5),
+    0px 0px 20px rgba(51, 102, 204, 0.5);
+
+  }
+
+  /* Buttons */
+  .linksbutton {
+    font-weight:bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: linear-gradient(to bottom, #1d286a, #0d1339);
+  }
+  .linksbutton:hover {
+    background: linear-gradient(to bottom, #ff8c00, #ffc800);
+    margin: 0 15px;
+    transform: scale(1.1);
+  }
+  a {
+    text-decoration: none;
+    color:rgb(149, 159, 187);
+  }
+
+  /* About */
+  p#about {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding:15px;
+    border-radius:5px;
+    text-align: justify;
+    color:rgb(149, 159, 187);
+    text-indent: 40px;
+    box-shadow: 0 0 10px rgba(51, 102, 204, 0.5);
+    margin: 30px;
+  }
+
+ 
